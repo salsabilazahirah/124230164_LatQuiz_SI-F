@@ -27,22 +27,22 @@ class ProfilePage extends StatelessWidget {
               ),
               child: ClipOval(
                 child: Image.asset(
-                  "assets/images/bilazahirah.jpg",
+                  "assets/images/cipe.jpg",
+                  width: 60,
+                  height: 60,
                   fit: BoxFit.cover,
-                  width: 150,
-                  height: 150,
-                  errorBuilder: (context, error, stackTrace) {
-                    return Container(
-                      width: 150,
-                      height: 150,
-                      color: color2,
-                      child: Icon(
-                        Icons.person,
-                        size: 80,
-                        color: color3,
-                      ),
-                    );
-                  },
+                  // errorBuilder: (context, error, stackTrace) {
+                  //   return Container(
+                  //     width: 150,
+                  //     height: 150,
+                  //     color: color2,
+                  //     child: Icon(
+                  //       Icons.person,
+                  //       size: 80,
+                  //       color: color3,
+                  //     ),
+                  //   );
+                  // },
                 ),
               ),
             ),
