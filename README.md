@@ -1,4 +1,7 @@
-# flutter_application_1
+# Zahirah Salsabila
+# NIM 124230164
+# Kelas Praktikum Mobile SI-F
+# Tugas LatihanQuiz
 
 A new Flutter project.
 
